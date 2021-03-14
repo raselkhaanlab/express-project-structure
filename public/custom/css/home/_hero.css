@@ -1,0 +1,104 @@
+.hero-section .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #CD2E3A;
+}
+.hero-section .contents {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 30px;
+    color: #CD2E3A;
+
+}
+.hero-section .btn.btn-warning {
+    margin-bottom: 70px;
+}
+.hero-menu {
+    padding: 35px 40px;
+    border-radius: 5px;
+}
+ul.hero-menu > li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 0;
+    text-align: center;
+    width: calc(25% - 4px);
+    background: #CD2E3A;
+    box-shadow: 0px 0px 4px rgba(177, 177, 177, 0.25);
+    border-radius: 5px;
+}
+ul.hero-menu > li a {
+    color: #FFEAD5;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+ul.hero-menu > li.active, ul.hero-menu > li:active,
+ul.hero-menu > li:hover, ul.hero-menu > li:focus {
+    transform: scale(1.1);
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    background: #D88E42;
+    box-shadow: 0px 0px 15px rgba(148, 143, 143, 0.25);
+    border-radius: 5px;
+}
+ul.hero-menu > li.active a, ul.hero-menu > li:active a,
+ul.hero-menu > li:hover a, ul.hero-menu > li:focus a {
+    color: #FFEAD5;                                                                                     
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+@media only screen and (max-width: 1366px) {
+    section.hero-section {
+        padding-top: 1rem !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .hero-section .title {
+        font-size: 32px;
+    }
+    .hero-section .contents {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .hero-section::before {
+        display: none;
+    }
+    .hero-menu {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hero-section::before {
+        bottom: -250px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .hero-menu {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    ul.hero-menu > li {
+        width: calc(50% - 2px);
+        margin-bottom: 3px;
+    }
+}

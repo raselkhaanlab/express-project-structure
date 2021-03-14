@@ -1,0 +1,78 @@
+#portfolio {
+    background: #fafafa;
+    padding: 8px 0;
+}
+#portfolio .card {
+    margin: 0 -8px 32px -8px;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.05);
+}
+#portfolio .card .card-title {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#portfolio .card .card-data {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 16px 0 0;
+    font-size: 72px;
+    font-weight: 300;
+}
+#portfolio .card hr {
+    width: 90%;
+}
+#portfolio .card .card-hint {
+    display: flex;
+    padding: 0 0 8px 8px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+#portfolio .card .card-hint i {
+    font-size: 1.3rem;
+    color: red;
+    margin-right: 8px;
+}
+#portfolio .card .card-icon {
+    display: flex;
+    position: absolute;
+    top: -20px;
+    left: 12px;
+    background: linear-gradient(60deg, #ffa726, #EF6C00);
+    color: white;
+    width: 90px;
+    height: 90px;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+}
+#portfolio .card .card-icon i {
+    font-size: 4rem;
+}
+#portfolio #storageCard .card-icon {
+    background: linear-gradient(60deg, #5E35B1, #039BE5);
+}
+#portfolio #storageCard .card-hint i {
+    color: red;
+}
+#portfolio #loveCard .card-icon {
+    background: linear-gradient(60deg, #F50057, #FF8A80);
+}
+#portfolio #loveCard .card-hint i {
+    color: blue;
+}
+#portfolio #pizzaCard .card-icon {
+    background: linear-gradient(60deg, #fb8c00, #FFCA29);
+}
+#portfolio #pizzaCard .card-hint i {
+    color: red;
+}
+#portfolio #gameCard .card-icon {
+    background: linear-gradient(60deg, #43A047, #FFEB3B);
+}
+#portfolio #gameCard .card-hint i {
+    color: green;
+}

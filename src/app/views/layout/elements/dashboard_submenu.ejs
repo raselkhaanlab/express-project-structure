@@ -1,0 +1,38 @@
+<div class="mt-1 mb-2">
+    <% if(Request.session.user){ if(Request.session.user.role_id==1 || Request.session.user.role_id==4){%>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/dashboard">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <% if(Request.session.user.role_id==1 || Request.session.user.role_id==4){ %>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Lottery Management
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/lottery">List</a>
+                        <% if(Request.session.user.role_id==1){ %>
+                            <a class="dropdown-item" href="/lottery/create">Create New</a>
+                        <%} %>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Winner
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/winner/list">List</a>
+                        <% if(Request.session.user.role_id==1){ %>
+                            <a class="dropdown-item" href="/winner/add">Add New</a>
+                        <%} %>
+                    </div>
+                </li>
+                <% } %>
+            </ul>
+        </div>
+    </nav>
+    <% } }%>
+</div>

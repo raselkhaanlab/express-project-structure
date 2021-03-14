@@ -1,0 +1,85 @@
+.navbar {
+    background: #e9ecef;
+}
+.navbar-brand {
+    max-width: 130px;
+}
+nav ul > li.nav-item {
+    margin-right: 15px;
+}
+nav ul > li.nav-item:last-child {
+    margin-right: 0;
+}
+nav ul > li.nav-item.active {
+    font-weight: 600;
+}
+.navbar a {
+    color: #000;
+}
+.dropdown-menu a{
+    color:black;
+}
+nav ul > li.dropdown:last-child .dropdown-menu {
+    left: auto;
+    right: 0;
+    width: auto;
+}
+nav.main-menu ul > li.nav-item {
+    margin-right: 0;
+}
+.navbar-2.main-menu {
+    padding-top: 0;
+}
+.navbar-2.main-menu .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-btn{
+    padding: .07rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+.main-menu ul span {
+    width: 1px;
+    background: #FFF;
+    margin: .8rem;
+}
+nav form input.form-control:-ms-input-placeholder, /* Internet Explorer 10-11 */
+nav form input.form-control::-ms-input-placeholder, /* Microsoft Edge */
+nav form input.form-control::-webkit-input-placeholder {
+    color: #FFF;
+}
+nav form input.form-control::placeholder {
+    color: #FFF;
+    opacity: 1; /* Firefox */
+}
+.login-error-message-top{
+    position: absolute;
+    top: 45px;
+}
+.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.logo-h{
+    min-width: 200px;
+}
+nav li a{
+    font-size: 16px;
+    position: relative;
+}
+
+#cartNav{
+    position: absolute;
+    top: -4px;
+    right: -16px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 12px;
+    line-height: 0;
+    font-size: 14px;
+}

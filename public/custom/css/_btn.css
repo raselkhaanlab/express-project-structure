@@ -1,0 +1,16 @@
+.btn-linear-theme {
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, #301E14, #663C10, #D88E42 , #3F281B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    color: #FFFFFF;
+}
+
+.btn-linear-theme:hover {
+    background-position: 100% 0;
+    color: #FFFFFF;
+}
+.btn-linear-theme:focus {
+    outline: none;
+}
+
+

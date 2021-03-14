@@ -1,0 +1,179 @@
+.winner-item img {
+    border: 1px solid gray;
+}
+.lottery-item {
+    padding: 15px 0 0;
+    text-align: center;
+    background: #EFEFEF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease-in-out 0s;
+    transform: scale(1);
+}
+.lottery-item:hover{
+    transition: all 0.2s ease-in-out 0s;
+    transform: scale(1.05);
+}
+.win-text-wrapper {
+    width: 30%;
+    height: auto;
+}
+.win-title-wrapper {
+    width: 70%;
+}
+.winner-item-wrapper {
+    margin-bottom: 30px;
+}
+.lottery-wrapper .win-text {
+    background: url(../../../svg/win-bg-1.svg) no-repeat;
+    height: 90px;
+    width: auto;
+}
+.lottery-wrapper:nth-child(2n) .win-text {
+    background: url(../../../svg/win-bg-2.svg) no-repeat;
+    background-position: left -6px top 3px;
+}
+.lotteries-title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    background: url(../../../svg/lottery-title-bg.svg) no-repeat;
+    color: #fff;
+    text-align: left;
+    background-size: 100%;
+    margin: 0 -10px 25px;
+    padding: 10px 13px;
+}
+.lotteries-title-price {
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+}
+.lottery-item-footer-border {
+    background: rgb(254,243,220);
+    background: linear-gradient(90deg, rgba(254,243,220,1) 0%, rgba(251,215,2,1) 25%, rgba(156,41,37,1) 50%, rgba(251,215,2,1) 75%, rgba(254,243,220,1) 100%);
+    height: 3px;
+}
+.lottery-footer-wrapper {
+    background: #FEF3DC;
+    color: #554016;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding: 10px;
+}
+.lottery-item-footer {
+    background: linear-gradient(90deg, rgb(1, 54, 119) 0%, rgb(205, 46, 58) 100%);
+    color: white;
+    height: 64px;
+    margin-bottom: 0;
+    border: 1px solid #81131c;
+    border-radius: 4px;
+    padding: 10px;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+
+}
+.coming-soon-f{
+    line-height: 44px;
+    font-size: 24px;
+}
+.lottery-item-footer:hover,
+.lottery-item-footer:active,
+.lottery-item-footer:focus 
+{
+    background: linear-gradient(90deg, rgb(205, 46, 58) 0%, rgb(0, 53, 118) 100%);
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+
+}
+@media only screen and (max-width: 1199px) {
+    .lottery-wrapper .win-text {
+        height: 65px;
+        background-size: 75%;
+    }
+    .lottery-wrapper:nth-child(2n) .win-text {
+        background-size: 75%;
+        height: 50px;
+        margin-top: -20px;
+    }
+    .lotteries-title {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .lotteries-title-price {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .lottery-wrapper .win-text, .lottery-wrapper:nth-child(2n) .win-text {
+        background-size: 50%;
+        height: 60px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .lottery-wrapper .win-text, .lottery-wrapper:nth-child(2n) .win-text {
+        background-size: 70%;
+    }
+}
+/*.winner-item-wrapper {
+    background-color: #FFF;
+    border-top: 1px solid #D0D0D0;
+    margin-top: 160px !important;
+}
+.winner-item-wrapper:nth-child(2){
+    border-left: 1px solid #D0D0D0;
+    border-bottom: 10px solid #FEA6A6;
+}
+.winner-item-wrapper:nth-child(3) {
+    border-bottom: 10px solid #5987C5;
+}
+.winner-item-wrapper:last-child {
+    border-right: 1px solid #D0D0D0;
+    border-bottom: 10px solid #E7D88C;
+}
+.img-winner {
+    margin-top: -50%;
+}
+.winner-item .series-no {
+    background: #5987C5;
+    border-radius: 13px;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 12px;
+}
+.winner-item {
+    background: white;
+    padding: 14px;
+    margin:10px auto;
+    margin-top: 100px;
+}
+.winner-item .winner-img {
+    margin-top: -105px;
+}
+.winner-img {
+    border: 1px solid #a09d9d;
+    width: 200px;
+    height: 200px;
+}
+@media only screen and (max-width: 767px) {
+    .img-winner {
+        margin-top: -22%;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .winner-item {
+        margin-left: 15px;
+        margin-right: 15px;
+        border: 0 !important;
+    }
+    .img-winner {
+        margin-top: -35%;
+    }
+}*/

@@ -1,0 +1,206 @@
+@import "home/_hero.css";
+@import "home/_jackpot-big-win.css";
+@import "home/_faq.css";
+.section-title-lg, .section-title, .reg-title {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 300;
+}
+.section-title-lg strong, .section-title strong {
+    font-weight: 600;
+}
+.section-title-lg {
+    font-size: 72px;
+}
+.section-title {
+    font-size: 56px;
+}
+.section-title.small-title {
+    font-size: 42px;
+}
+ul.lsit-win-no {
+    padding: 0;
+}
+ul.lsit-win-no > li {
+    list-style: none;
+    border: 3px solid #5987C5;
+    display: inline-block;
+    padding: 8px 8px;
+    font-family: 'Arial';
+    font-size: 42px;
+    width: calc(33.33% - 3px);
+    text-align: center;
+    border-radius: 16px;
+}
+.bg-reg {
+    background: url(../../img/landing/register-bg.svg) no-repeat center center;
+    background-size: 100%;
+    height: 144px;
+    padding: 10px 30px;
+}
+.reg-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+.lottery-item {
+    background: url(../../img/landing/ticket-list-bg.svg) no-repeat center center;
+    background-size: 100%;
+    padding: 10px 25px 10px 75px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.lotteries-title {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+/*.winners-section {
+    margin-top: 160px;
+}*/
+.winner-item-wrapper {
+    background-color: #FFF;
+    border-top: 1px solid #D0D0D0;
+}
+.winner-item-wrapper:nth-child(2){
+    border-left: 1px solid #D0D0D0;
+    border-bottom: 10px solid #FEA6A6;
+}
+.winner-item-wrapper:nth-child(3) {
+    border-bottom: 10px solid #5987C5;
+}
+.winner-item-wrapper:last-child {
+    border-right: 1px solid #D0D0D0;
+    border-bottom: 10px solid #E7D88C;
+}
+.img-winner {
+    margin-top: -50%;
+}
+.winner-item .series-no {
+    background: #5987C5;
+    border-radius: 13px;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 12px;
+}
+/*footer*/
+.section-footer {
+    background-color: #392418;
+    position: relative;
+    margin-top: 200px;
+    padding-top: 48px;
+}
+/*.section-footer::before {
+    content: "";
+    width: 100%;
+    height: 200px;
+    background: #5987C5;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+}*/
+.social-media ul {
+    padding: 0;
+}
+.social-media ul > li {
+    list-style: none;
+    display: inline-block;
+    width: 35px;
+    background: #fff;
+    height: 35px;
+    border-radius: 35px;
+    margin-right: 15px;
+    color: #3854A4;
+}
+.social-media ul > li {
+    line-height: 35px
+}
+.footer-menu ul {
+    padding: 0;
+}
+.footer-menu ul > li {
+    list-style: none;
+    display: inline-block;
+}
+.footer-menu ul > li a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 15px;
+    text-decoration: none;
+}
+.main-footer {
+    background-color: #3854A4;
+}
+.subscribe-section .form-control {
+    border-radius: 22px;
+    padding-left: 25px;
+}
+.subscribe-section .input-group-text {
+    border-top-right-radius: 22px !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    border-bottom-right-radius: 22px !important;
+    background-color: #5987C5;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+.subscribe-section .input-group-text:active {
+    border: 1px solid #7fa9e2;
+}
+#dashboardMenu{
+    list-style: none;
+}
+#dashboardMenu li{
+    margin: 1px auto;
+}
+@media only screen and (min-width: 1440px) {
+
+}
+@media only screen and (max-width: 1366px) {
+
+}
+@media only screen and (max-width: 1280px) {
+
+}
+@media only screen and (max-width: 1024px) {
+    .section-title {
+        font-size: 36px;
+    }
+    .lotteries-title {
+        font-size: 20px;
+    }
+    .fag-section .list-group-item {
+        padding: 10px;
+    }
+    .fag-section .dot {
+        right: -55px;
+    }
+    .fag-section .list-group-item.active .dot, .fag-section .list-group-item:hover .dot, .fag-section .list-group-item:active .dot, .fag-section .list-group-item:focus .dot {
+        right: -47px;
+    }
+    .section-footer {
+        margin-top: 165px;
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 575px) {
+    .section-footer {
+        margin-top: 60px;
+    }
+    .section-footer::before {
+        height: 120px;
+    }
+}

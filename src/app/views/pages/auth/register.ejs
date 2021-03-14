@@ -1,0 +1,101 @@
+<%- include('../../layout/header'); -%>
+<% 
+const old = flashMessage.old?JSON.parse(flashMessage.old):undefined;
+const errors = flashMessage.errors?JSON.parse(flashMessage.errors):undefined;
+%>
+<div class="container mt-5">
+    <div class="text-center text-black">
+        <h1 class="page-title">Register here</h1>
+    </div>
+    <hr>
+
+    <div class="col-md-6 mx-auto card card-theme">
+        <form method="POST" enctype="multipart/form-data">
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="name">name<span class="text-danger">*</span>:</label>
+                        <input type="text" class="form-control" id="name" name="name" value="<%- (typeof old !='undefined')?old.name:''; %>">
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.name)?errors.name:''; %></small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="gender">gender<span class="text-danger">*</span>:</label>
+                        <select class="form-control" id="gender" name="gender" value="<%- (typeof old !='undefined')?old.gender:''; %>">
+                          
+                          <option value="1">male</option>
+                          <option value="2">female</option>
+                          <option value="3">others</option>
+                        </select>
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.gender)?errors.gender:''; %></small>
+                      </div> 
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="birthday">birth date<span class="text-danger">*</span>:</label>
+                         <input class="form-control" type="date" name="birthday" value="<%- (typeof old !='undefined')?old.birthday:Date.now(); %>">
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.birthday)?errors.birthday:''; %></small>
+                      </div>  
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="attachment">upload an attachment<span class="text-danger">*</span>:</label>
+                         <input class="form-control-file" type="file" name="attachment">
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.attachment)?errors.attachment:''; %></small>
+                      </div>  
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="marital_status">marital status<span class="text-danger">*</span>:</label>
+                        <select class="form-control" id="marital_status" name="marital_status" value="<%- (typeof old !='undefined')?old.marital_status:''; %>">
+                          
+                          <option value="0">unmarried</option>
+                          <option value="1">married</option>
+                        </select>
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.marital_status)?errors.marital_status:''; %></small>
+                      </div>  
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="married_date">marrige date:</label>
+                         <input class="form-control" type="date" name="married_date" id="married_date" value="<%- (typeof old !='undefined')?old.married_date:Date.now(); %>">
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.married_date)?errors.married_date:''; %></small>
+                      </div>  
+                </div>
+
+                <div class="col-12 col-md-12">
+                    <div class="form-group">
+                        <label for="email">email<span class="text-danger">*</span>:</label>
+                        <input type="email" class="form-control" id="email" name="email" value="<%- (typeof old !='undefined')?old.email:''; %>">
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.email)?errors.email:''; %></small>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12">
+                    <div class="form-group">
+                        <label for="password">password<span class="text-danger">*</span>:</label>
+                        <input type="password" class="form-control" id="password" name="password" value="<%- (typeof old !='undefined')?old.password:''; %>">
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.password)?errors.password:''; %></small>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12">
+                    <div class="form-group">
+                        <label for="confirm_password">confirm password<span class="text-danger">*</span>:</label>
+                        <input type="password" class="form-control" id="confirm_password" name="confirm_password" value="<%- (typeof old !='undefined')?old.confirm_password:''; %>">
+                        <small class="text-danger"><%= (typeof errors != 'undefined' && errors.confirm_password)?errors.confirm_password:''; %></small>
+                    </div>
+                </div>
+                <div class="text-center col-12">
+                    <button type="submit" class="btn btn-info">Register now</button>
+                    <a class="btn btn-success" href="/login">Login here</a>
+
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+<%- include('../../layout/footer'); -%>

@@ -1,0 +1,43 @@
+.jackpot-big-win-section {
+    background-image: url(../../../img/jackpot-big-win-bg-banner.svg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    content: "";
+    height: 480px;
+    left: 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+.jackpot-big-win-bg {
+    background-image: url(../../../svg/jackpot-big-win-bg.svg);
+    background-size: cover;
+    background-position: center center;
+}
+.open-box-img {
+    margin-top: -80px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .jackpot-big-win-section {
+        height: 320px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .jackpot-big-win-section {
+        margin-top: -40px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .jackpot-big-win-section {
+        margin-top: 0;
+        height: 100%;
+        padding: 25px 0;
+    }
+    .jackpot-big-win-bg {
+        position: relative;
+    }
+}
+

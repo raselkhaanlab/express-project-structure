@@ -1,0 +1,52 @@
+<svg width="1320" height="187" viewBox="0 0 1320 187" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1320 0H0V187H1320V0Z" fill="#0047A0"/>
+    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1320" height="187">
+        <path d="M1320 0H0V187H1320V0Z" fill="url(#paint0_radial)"/>
+    </mask>
+    <g mask="url(#mask0)">
+        <g opacity="0.3">
+            <path opacity="0.3" d="M643.567 100.454L604.01 -246H683.125L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L468.023 -237.712L545.94 -243.76L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L337.373 -219.145L411.717 -231.064L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.566 100.454L216.023 -190.87L284.539 -208.298L643.566 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L107.666 -153.747L168.273 -176.146L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L15.5957 -108.894L66.4484 -135.59L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L-57.3984 -57.6874L-17.8439 -87.8652L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L-109.094 -1.67166L-82.0356 -34.4149L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L-137.916 57.4489L-124.182 23.1302L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L-143 117.872V83.0262L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L-124.182 177.771L-137.92 143.452L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L-82.0356 235.319L-109.094 202.57L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L-17.8428 288.763L-57.4004 258.585L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.566 100.454L66.4437 336.491L15.5879 309.795L643.566 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.566 100.454L168.269 377.047L107.662 354.645L643.566 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L284.536 409.196L216.018 391.772L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.567 100.454L411.713 431.969L337.369 420.049L643.567 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.566 100.454L545.933 444.664L468.02 438.614L643.566 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L683.119 446.901H604.004L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L819.106 438.614L741.189 444.664L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L949.754 420.049L875.41 431.969L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1071.1 391.772L1002.59 409.196L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1179.46 354.648L1118.85 377.047L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1271.53 309.798L1220.68 336.491L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1344.52 258.585L1304.97 288.766L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1396.22 202.573L1369.16 235.319L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1425.04 143.452L1411.31 177.771L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1430.13 83.0292V117.875L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1411.31 23.1332L1425.05 57.4488L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1369.16 -34.4116L1396.22 -1.66837L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1304.97 -87.8652L1344.53 -57.6813L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1220.68 -135.587L1271.53 -108.894L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1118.85 -176.146L1179.46 -153.744L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L1002.59 -208.295L1071.11 -190.87L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L875.413 -231.064L949.76 -219.145L643.568 100.454Z" fill="white"/>
+            <path opacity="0.3" d="M643.568 100.454L741.192 -243.76L819.109 -237.709L643.568 100.454Z" fill="white"/>
+        </g>
+    </g>
+    <defs>
+        <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(665.334 74.4624) scale(1143.32 162.761)">
+            <stop stop-color="#0061A2"/>
+            <stop offset="1" stop-color="#003866"/>
+        </radialGradient>
+    </defs>
+</svg>

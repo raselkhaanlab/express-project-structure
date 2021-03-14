@@ -1,0 +1,12 @@
+.hidden {
+    display: none !important;
+}
+.text-theme {
+    color: #392418;
+}
+.bg-theme {
+    background-color: #392418;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+}

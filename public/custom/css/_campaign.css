@@ -1,0 +1,65 @@
+#campaign{
+     color:black;
+ }
+
+#campaign .title{
+    font-size: 32px;
+    border-bottom: 1px solid white;
+}
+#campaign .step-body{
+    word-break: break-word;
+    font-size: 16px;
+}
+#campaign .step-title{
+    font-size: 30px;
+    margin-bottom: 22px;
+    border-bottom: 1px solid #CD2E3A;
+}
+
+#campaign .campaign-user {
+    background: #CD2E3A;
+    padding: 20px;
+    margin: 4px;
+    color:white;
+}
+#campaign .campaign-user .user-body{
+    margin: 20px auto;
+    font-size: 18px;
+    word-break: break-word;
+}
+#campaign .step-wrapper{
+    background: #014EAF;
+    border-radius: 10px;
+    width: 100%;
+}
+#campaign .fa-play{
+    font-size: 28px;
+    top: 46%;
+    right: -13px;
+    position: absolute;
+    color:#CD2E3A;
+}
+#campaign .step{
+    background: white;
+    margin: 24px 4px 4px 4px;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 258px;
+}
+
+@media only screen and (max-width: 768px) {
+    #campaign .step-wrapper {
+        padding: 1px;
+        margin-bottom: 14px;
+    }
+    #campaign .mt-m-10{
+        margin-top: 14px;
+    }
+    #campaign .fa-play{
+        transform: rotate(90deg);
+        bottom: -13px;
+        left: 46%;
+        top: unset;
+        right: unset;
+    }
+}
